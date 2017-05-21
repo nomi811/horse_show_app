@@ -1,7 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang='eng'>
   <head>
+    <meta charset='utf-8'/>
+    <link rel="horse-icon" sizes="76x76" href="assets/images/horse-head.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/images/horse-head.png">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title><%= full_title(yield(:title)) %></title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <!-- <link href="assets/stylesheets/bootstrap.css" rel="stylesheet" /> -->
+    <!-- <link href="assets/stylesheets/gaia.css" rel="stylesheet"/> -->
+
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/stylesheets/fonts/pe-icon-7-stroke.css" rel="stylesheet">
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -13,20 +26,105 @@
   </head>
 
   <body>
-    <header class='navbar navbar-fixed-top navbar-inverse'>
+    <nav class='navbar navbar-default navbar-transparent navbar-fixed-top' color-on-scroll='200'>
       <div class="container">
-        <%= link_to 'horse show app', '#', id: 'logo' %>
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
+        <div class='navbar-header'>
+          <button id='menu-toggle' type='button' class='navbar-toggle'
+          data-toggle='collapse' data-target='#example'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar bar1'></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <h3 class='navbar-brand'>
+            <%= link_to 'Horse Show Connection', root_path %>
+          </h3>
+        </div>
+        <div class='collapse navbar-collapse'>
+          <ul class="nav navbar-nav navbar-right navbar-uppercase">
             <li><%= link_to 'Home',     '#' %></li>
             <li><%= link_to 'About',    '#' %></li>
             <li><%= link_to 'Contact',  '#' %></li>
+            <li class="dropdown">
+              <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-share-alt"></i> Share
+              </a>
+              <ul class="dropdown-menu dropdown-danger">
+                <li>
+                  <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                </li>
+              </ul>
+            </li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </header>
-    <div class="container">
+    </nav>
+
       <%= yield %>
-    </div>
+
+    <!-- footer -->
+    <footer class="footer footer-big footer-color-black" data-color='black'>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2" col-sm-3>
+            <div class="info">
+              <h5 class="title">Company</h5>
+              <nav>
+                <ul>
+                  <li><%= link_to 'Home',     '#' %></li>
+                  <li><%= link_to 'About',    '#' %></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1 col-sm-3">
+            <div class="info">
+              <h5 class="title">Help and Support</h5>
+              <nav>
+                <ul>
+                  <li><%= link_to 'Contact',  '#' %></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3">
+            <div class="info">
+              <h5 class="title">Latest News</h5>
+              <nav>
+                <ul>
+                  <li>
+                    Latest Blog Post
+                    <hr class="hr-small">
+                  </li>
+                  <li>
+                    Second Latest Blog Post
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="copyright">
+          © <script> document.write(new Date().getFullYear()) </script> Created by Nomi Vos
+        </div>
+      </div>
+    </footer>
+
   </body>
+  <!--   core js files    -->
+<script src="assets/javascripts/jquery.min.js" type="text/javascript"></script>
+<script src="assets/javascripts/bootstrap.js" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="assets/javascripts/modernizr.js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="assets/javascripts/gaia.js"></script>
 </html>
