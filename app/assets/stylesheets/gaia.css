@@ -2484,12 +2484,12 @@ a,
 }
 
 .section .image3 {
-  background-image: url('horse-header3');
+  background-image: url('horse-header2');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   z-index: 2;
   position: absolute;
   display: block;

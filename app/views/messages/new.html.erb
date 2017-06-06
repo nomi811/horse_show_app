@@ -1,0 +1,24 @@
+<div class="section section-small section-get-started">
+  <div class="parallax filter">
+    <div class="image3"></div>
+    <div class="container">
+      <div class="title-area">
+        <h2 class="text-white">Contact Me!</h2>
+        <p class="description">I'd really like to make this website useful for everyone! So give me any feedback that you think would be helpful! Thanks!</p>
+      </div>
+
+      <%= form_for @message, url: create_message_url do |f| %>
+        <%= notice %>
+        <%= @message.errors.full_messages.join(', ') %>
+
+        <%= f.text_field :name, placeholder: 'name' %>
+        <%= f.email_field :email, placeholder: 'email' %>
+        <%= f.text_area :body, placeholder: 'body' %>
+
+        <div class="button-get-started">
+          <%= f.submit 'Send' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
