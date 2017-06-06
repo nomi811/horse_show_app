@@ -15,13 +15,16 @@ class MessagesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'POST create' do
-    post create_message_url, params: {
-      message: {
-        name:   'Sammy',
-        email:  'sammy@email.com',
-        body:   'hello'
+    assert_difference 'ActionMailer::Base.deliveries.size', 1 do
+      post create_message_url, params: {
+        message: {
+          name:   'Sammy',
+          email:  'sammy@email.com',
+          body:   'hello'
+        }
       }
-    }
+    end
+
 
     assert_redirected_to new_message_url
 
