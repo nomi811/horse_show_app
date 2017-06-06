@@ -42,7 +42,7 @@
           <ul class="nav navbar-nav navbar-right navbar-uppercase">
             <li><%= link_to 'Home',     '#' %></li>
             <li><%= link_to 'About',    '#' %></li>
-            <li><%= link_to 'Contact',  '#' %></li>
+            <li><%= link_to 'Contact', new_message_path %></li>
             <li class="dropdown">
               <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
                 <i class="fa fa-share-alt"></i> Share
@@ -70,38 +70,22 @@
     <footer class="footer footer-big footer-color-black" data-color='black'>
       <div class="container">
         <div class="row">
-          <div class="col-md-2" col-sm-3>
+          <div class="col-md-2 col-sm-3">
             <div class="info">
-              <h5 class="title">Company</h5>
-              <nav>
-                <ul>
-                  <li><%= link_to 'Home',     '#' %></li>
-                  <li><%= link_to 'About',    '#' %></li>
-                </ul>
-              </nav>
+              <h5 class="title">About</h5>
+              <hr class="hr-small">
+                <p>Hi! I'm a busy mom with 8 kids! One of which loves horses! The idea for this website was born of frustration. All the deadlines! All the forms! All the rules! All the websites! Phew! I was getting super frustrated trying to find the links to the information I needed. </p>
             </div>
           </div>
-          <div class="col-md-3 col-md-offset-1 col-sm-3">
-            <div class="info">
-              <h5 class="title">Help and Support</h5>
-              <nav>
-                <ul>
-                  <li><%= link_to 'Contact',  '#' %></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
+
           <div class="col-md-3 col-sm-3">
             <div class="info">
               <h5 class="title">Contact Me!</h5>
+              <hr class="hr-small">
               <nav>
                 <ul>
                   <li>
-                    Latest Blog Post
-                    <hr class="hr-small">
-                  </li>
-                  <li>
-                    Second Latest Blog Post
+                    <%= link_to 'Contact', new_message_path %>
                   </li>
                 </ul>
               </nav>

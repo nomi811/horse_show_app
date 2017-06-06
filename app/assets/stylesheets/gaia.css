@@ -508,8 +508,8 @@ a,
   opacity: 0.8;
   filter: alpha(opacity=80);
   padding: 10px 20px;
-  border-color: #888888;
-  color: #888888;
+  border-color: #7c7d81;
+  color: black;
   text-transform: uppercase;
 }
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .btn.dropdown-toggle,
@@ -520,7 +520,7 @@ a,
 .navbar .navbar-nav > li > a.btn.dropdown-toggle {
   background-color: transparent;
   color: #777777;
-  border-color: #777777;
+  border-color: black;
 }
 .btn:disabled, .btn[disabled], .btn.disabled,
 .navbar .navbar-nav > li > a.btn:disabled,
@@ -2368,6 +2368,21 @@ a,
   font-size: 1em;
 }
 
+input[type='text'], input[type='email'], input[type='body'],
+textarea {
+  width: 100%;
+  max-width: 50%;
+  height: 3em;
+  border: 2px solid #e9e9e9;
+  padding: 1em;
+  margin: .5em 0 2em 0;
+  color: #333;
+}
+
+textarea {
+  min-height: 20em;
+}
+
 .section-contact-1 h4,
 .section-contact-2 h4,
 .section-contact-3 h4 {
@@ -2408,7 +2423,7 @@ a,
 .section-contact-3 .contact-container .address-container {
   position: absolute;
   left: 0;
-  width: 40%;
+  width: 100%;
   height: 570px;
   background-color: rgba(255, 255, 255, 0.75);
   z-index: 3;
@@ -2437,7 +2452,7 @@ a,
     min-height: 570px;
   }
   .section-contact-3 .address {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 }
 .section-closure {
