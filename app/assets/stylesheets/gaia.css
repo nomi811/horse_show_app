@@ -148,7 +148,7 @@ small,
 }
 
 a {
-  color: #777777;
+  color: #EAECEE;
   opacity: .7;
   font-size: 14px;
 }
@@ -1332,11 +1332,11 @@ a,
 }
 
 .navbar-default {
-  background-color: white;
+  background-color: #353231;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .navbar-default .navbar-nav > li > a:not(.btn) {
-  color: #434547;
+  color: #EAECEE;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:not(.btn):hover,
@@ -1580,7 +1580,7 @@ a,
 
 .footer-color-black,
 .footer-transparent {
-  background-color: rgba(30, 30, 30, 0.97);
+  background-color: #353231;
   color: #DDDDDD;
 }
 .footer-color-black nav > ul a,
@@ -2499,7 +2499,7 @@ textarea {
 }
 
 .section .image3 {
-  background-image: url('horse-header2');
+  background-image: url('horseshoe');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
