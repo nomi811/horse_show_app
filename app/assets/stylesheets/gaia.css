@@ -1302,6 +1302,7 @@ a,
 .navbar .navbar-nav > .social-links > a {
   padding: 10px 5px;
 }
+
 .navbar .navbar-nav.navbar-uppercase > li > a {
   text-transform: uppercase;
   font-size: 12px;
@@ -1514,7 +1515,7 @@ a,
 }
 .footer nav > ul a:not(.btn) {
   color: #777777;
-  display: block;
+  display: inline-block;
   margin-bottom: 3px;
 }
 .footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {

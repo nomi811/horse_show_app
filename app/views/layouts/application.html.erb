@@ -40,22 +40,6 @@
           <ul class="nav navbar-nav navbar-right navbar-uppercase">
             <li><%= link_to 'Home', root_path %></li>
             <li><%= link_to 'Contact', new_message_path %></li>
-            <li class="dropdown">
-              <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-share-alt"></i> Share
-              </a>
-              <ul class="dropdown-menu dropdown-danger">
-                <li>
-                  <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
-                </li>
-              </ul>
-            </li>
           </ul>
         </div>
       </div>
@@ -86,6 +70,11 @@
                   <li>
                     <%= link_to 'Contact', new_message_path %>
                   </li>
+                  <br>
+                  <hr>
+
+                  <li><%= social_share_button_tag("My Site") %></li>
+                  
                 </ul>
               </nav>
             </div>
