@@ -967,7 +967,7 @@ a,
 }
 .section .title-area {
   max-width: 760px;
-  margin: 0 auto 70px;
+  margin: auto;
   display: block;
   padding: 0 15px;
   text-align: center;

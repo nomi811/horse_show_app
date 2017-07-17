@@ -6,36 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Horse Show Connection</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-    <!-- <link href="assets/stylesheets/bootstrap.css" rel="stylesheet" /> -->
-    <!-- <link href="assets/stylesheets/gaia.css" rel="stylesheet"/> -->
 
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600" rel="stylesheet" type="text/css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/stylesheets/fonts/pe-icon-7-stroke.css" rel="stylesheet">
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
-    <!--[if lt IE 9]>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
-      </script>
-    <![endif]-->
   </head>
 
   <body>
     <nav class='navbar navbar-default navbar-transparent navbar-fixed-top' color-on-scroll='200'>
       <div class="container">
-        <!-- <div class='navbar-header'> -->
-          <!-- <button id='menu-toggle' type='button' class='navbar-toggle'
-          data-toggle='collapse' data-target='#example'>
-            <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar bar1'></span>
-            <span class="icon-bar bar2"></span>
-            <span class="icon-bar bar3"></span>
-          </button> -->
-          <h3 class='navbar-brand'>Horse Show Connection</h3>
-        <!-- </div> -->
+        <h3 class='navbar-brand'>Horse Show Connection</h3>
         <div class='collapse navbar-collapse'>
           <ul class="nav navbar-nav navbar-right navbar-uppercase">
             <li><%= link_to 'Home', root_path %></li>
@@ -68,7 +52,7 @@
                 <ul>
                   <p>Let me know what you're thinking!</p>
                   <li>
-                    <%= link_to 'Click here', new_message_path %>
+                    <%= link_to 'Contact', new_message_path %>
                   </li>
                   <br>
                   <hr>
@@ -89,13 +73,4 @@
     </footer>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
-  <!--   core js files    -->
-<script src="assets/javascripts/jquery.min.js" type="text/javascript"></script>
-<script src="assets/javascripts/bootstrap.js" type="text/javascript"></script>
-
-<!--  js library for devices recognition -->
-<script type="text/javascript" src="assets/javascripts/modernizr.js"></script>
-
-<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-<script type="text/javascript" src="assets/javascripts/gaia.js"></script>
 </html>
