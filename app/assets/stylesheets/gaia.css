@@ -148,12 +148,12 @@ small,
 }
 
 a {
-  color: #EAECEE;
+  color: #777777;
   opacity: .7;
   font-size: 14px;
 }
 a:hover {
-  color: #252525;
+  color: #A93226;
   opacity: 1;
 }
 
@@ -1364,7 +1364,7 @@ a,
   background-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: #434547;
+  color: #eaecee;
 }
 .navbar-default:not(.navbar-transparent) .btn-default:hover {
   color: #c5a47e;
