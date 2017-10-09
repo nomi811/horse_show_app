@@ -1,4 +1,4 @@
-# Horse Show Website
+# Horse Show Website  [![Build Status](https://travis-ci.org/nomi811/horseshowconnection.svg?branch=master)](https://travis-ci.org/nomi811/horseshowconnection)  [![Coverage Status](https://coveralls.io/repos/github/nomi811/horseshowconnection/badge.svg)](https://coveralls.io/github/nomi811/horseshowconnection)
 
 ![horseshowconnection](https://user-images.githubusercontent.com/17016297/31358732-6f516b90-ad0c-11e7-8c89-1067b3f1fc72.png)
 
