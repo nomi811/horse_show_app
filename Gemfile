@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'coveralls', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -54,7 +55,7 @@ group :test do
   gem 'minitest-reporters', '1.1.9'
   gem 'guard', '2.13.0'
   gem 'guard-minitest', '2.4.4'
-  gem 'coveralls', '~> 0.8.15', require: false
+
 end
 
 group :production do
