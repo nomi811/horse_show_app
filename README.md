@@ -1,8 +1,17 @@
 # Horse Show Website
 
-This is a website that will compile links to various horse shows for our local horse show group to make it easier for the kids and parents to get registered and to know the deadlines.  It will also have an area for people new to the horse show world with information and tips.
+![horseshowconnection](https://user-images.githubusercontent.com/17016297/31358732-6f516b90-ad0c-11e7-8c89-1067b3f1fc72.png)
 
-* Ruby version 2.3.1
+### Objectives
+This is a website that will compile links to various 4H horse shows to make it easier for the kids and parents to get registered for , find information for, and to find the deadlines for the various horse shows.
+
+I want the comments section to be used by people who come to my website to add new links, comments and info so it becomes a collaborative endeavor.
+
+In the future I would like to add an area loaded with information and tips for people new to the horse show world.
+
+### Technologies
+
+* Ruby version 2.4.2
 * Rails version 5.0
 
 Created by Nomi Vos 2017
