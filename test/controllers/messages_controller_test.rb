@@ -10,7 +10,6 @@ class MessagesControllerTest < ActionDispatch::IntegrationTest
       assert_select 'input[type=text]'
       assert_select 'input[type=email]'
       assert_select 'textarea'
-      assert_select 'input[type=submit]'
     end
   end
 

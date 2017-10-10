@@ -13,5 +13,31 @@ In the future I would like to add an area loaded with information and tips for p
 
 * Ruby version 2.4.2
 * Rails version 5.0
+* HTML
+* CSS
+* Bootstrap
+
+### Deploy
+
+To deploy with [Heroku](https://horseshowconnection.herokuapp.com/)
+
+To deploy Locally:
+
+Clone repo to a local directory:
+
+Clone from [GitHub](https://github.com/nomi811/horseshowconnection)
+```
+$ git clone git@github.com:nomi811/horseshowconnection.git
+```
+
+Run rails server:
+```
+$ rails s
+```
+
+Open in browser:
+```
+localhost:3000
+```
 
 Created by Nomi Vos 2017

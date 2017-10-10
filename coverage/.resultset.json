@@ -1,0 +1,115 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/controllers/messages_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/controllers/static_pages_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/helpers/application_helper.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/helpers/static_pages_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/mailers/message_mailer.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/Nomi/coding/Projects/horseshowconnection/app/models/message.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1507633446
+  }
+}
