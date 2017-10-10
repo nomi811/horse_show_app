@@ -40,4 +40,14 @@ Open in browser:
 localhost:3000
 ```
 
+### Testing
+
+```
+rails t
+```
+
+![screen shot 2017-10-10 at 6 20 38 am](https://user-images.githubusercontent.com/17016297/31384163-5157e016-ad83-11e7-890a-f9805594f884.png)
+
+As of now, Coveralls is not recognizing any of the tests I've put in with Minitest.  The project is far from fully covered, but it has more than 0% coverage.  I will need to work more on this.
+
 Created by Nomi Vos 2017
